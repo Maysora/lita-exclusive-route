@@ -1,11 +1,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-exclusive-route"
   spec.version       = "0.0.1"
-  spec.authors       = ["Roy"]
-  spec.email         = ["roy@bocistudio.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.authors       = ["Roy Hadrianoro"]
+  spec.email         = ["dev@maysora.com"]
+  spec.description   = %q{A Lita extension to allow exclusive route}
+  spec.summary       = %q{A Lita extension to allow exclusive route}
+  spec.homepage      = "http://www.bocistudio.com"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "extension" }
 

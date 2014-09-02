@@ -1,10 +1,21 @@
 module Lita
   module Extensions
     class ExclusiveRoute
+      def self.call(payload)
+        route = payload[:route]
+        message = payload[:message]
+
+        routes = message.instance_variable_get('@routes') || []
+        if route.extensions[:exclusive] && !routes.empty?
+          false
+        else
+          routes << route
+          message.instance_variable_set('@routes', routes)
+          true
+        end
+      end
     end
 
-    # If your extension needs to register with a Lita hook, uncomment the
-    # following line and change the hook name to the appropriate value:
-    # Lita.register_hook(:hook_name, ExclusiveRoute)
+    Lita.register_hook(:validate_route, ExclusiveRoute)
   end
 end
