@@ -3,7 +3,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Roy Hadrianoro"]
   spec.email         = ["dev@maysora.com"]
-  spec.description   = %q{A Lita extension to allow exclusive route}
+  spec.description   = %q{A Lita extension to allow exclusive route which only trigger if no prior routes triggered}
   spec.summary       = %q{A Lita extension to allow exclusive route}
   spec.homepage      = "http://www.bocistudio.com"
   spec.license       = "MIT"
