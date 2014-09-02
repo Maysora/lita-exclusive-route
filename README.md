@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Maysora/lita-exclusive-route.png?branch=master)](https://travis-ci.org/Maysora/lita-exclusive-route)
 [![Code Climate](https://codeclimate.com/github/Maysora/lita-exclusive-route.png)](https://codeclimate.com/github/Maysora/lita-exclusive-route)
-[![Coverage Status](https://coveralls.io/repos/Maysora/lita-exclusive-route/badge.png)](https://coveralls.io/r/Maysora/lita-exclusive-route)
-
+[![Coverage Status](https://coveralls.io/repos/Maysora/lita-exclusive-route/badge.png?branch=master)](https://coveralls.io/r/Maysora/lita-exclusive-route?branch=master)
 **lita-exclusive-route** is an extension for [Lita](https://www.lita.io/) that allows handler exclusive routes which only trigger when no prior routes already triggered
 
 ## Installation
